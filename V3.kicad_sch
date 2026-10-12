@@ -158,8 +158,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 26.416 -49.53 0)
+			(property "Reference" "U1"
+				(at 42.545 -48.26 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -167,14 +167,14 @@
 				)
 			)
 			(property "Value" "PTPS55288RPMR"
-				(at 28.956 -52.324 0)
+				(at 42.545 -50.8 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "VQFN-HR26_RPM_TEX"
+			(property "Footprint" "Cryocooler_footprints:TPS55288"
 				(at -21.59 13.716 0)
 				(effects
 					(font
@@ -687,6 +687,42 @@
 						)
 					)
 					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 52.07 12.7 270)
+					(length 7.62)
+					(name "SW2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 74.93 -6.35 180)
+					(length 7.62)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4035,6 +4071,12 @@
 		(uuid "4cef4178-653c-4813-afde-09c0fc071e24")
 	)
 	(junction
+		(at 168.91 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ff67789-df9e-4bf0-8785-cbfbd68e9d97")
+	)
+	(junction
 		(at 73.66 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4105,6 +4147,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e83c67f-e5a5-4e34-910d-f92dd0f80153")
+	)
+	(junction
+		(at 187.96 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87b77683-ee4a-4d78-875f-ea4d29f87d18")
 	)
 	(junction
 		(at 95.25 147.32)
@@ -4978,6 +5026,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 63.5) (xy 168.91 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863e6ba0-fc86-4ca8-86c3-2226be4b8c8b")
+	)
+	(wire
+		(pts
 			(xy 102.87 160.02) (xy 106.68 160.02)
 		)
 		(stroke
@@ -5435,6 +5493,16 @@
 			(type default)
 		)
 		(uuid "d641edb1-db55-4a29-92c1-d7d852c72842")
+	)
+	(wire
+		(pts
+			(xy 187.96 82.55) (xy 187.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0dbb40-ce07-4c7c-ada4-7a111a123407")
 	)
 	(wire
 		(pts
@@ -8216,6 +8284,12 @@
 		(pin "20"
 			(uuid "ece77570-b40c-40d1-b89b-bcfb52547373")
 		)
+		(pin "9"
+			(uuid "a94325c9-a924-42f7-90d2-2e022a167ae3")
+		)
+		(pin "21"
+			(uuid "0f8c245d-c023-4580-8c2c-1bcfe75e1ba7")
+		)
 		(instances
 			(project ""
 				(path "/fc4eef0c-f0fe-4c26-9eed-35cfade9960a"
@@ -8825,7 +8899,7 @@
 				(hide yes)
 			)
 		)
-		(property "DESCRIPTION" "4.7 µH Shielded Molded Inductor 17.5 A 5.7mOhm Max Nonstandard"
+		(property "DESCRIPTION" "10 µH Shielded Molded Inductor 17.5 A 5.7mOhm Max Nonstandard"
 			(at 158.75 49.53 0)
 			(effects
 				(font
@@ -8865,7 +8939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XAL1010-472MED/Coilcraft/view-part/?ref=eda"
+		(property "Check_prices" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal1010/xal1010-103/"
 			(at 158.75 49.53 0)
 			(effects
 				(font
@@ -8895,7 +8969,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "XAL1010-472MED"
+		(property "MP" "XAL1010-103MED"
 			(at 158.75 49.53 0)
 			(effects
 				(font
@@ -8905,7 +8979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            4.7 µH Shielded Molded Inductor 17.5 A 5.7mOhm Max Nonstandard\n                        \n"
+		(property "Description_1" "\n                        \n                            10 µH Shielded Molded Inductor 17.5 A 5.7mOhm Max Nonstandard\n                        \n"
 			(at 158.75 49.53 0)
 			(effects
 				(font
@@ -8935,7 +9009,7 @@
 				(hide yes)
 			)
 		)
-		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/XAL1010-472MED/?ref=eda"
+		(property "PURCHASE-URL" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal1010/xal1010-103/"
 			(at 158.75 49.53 0)
 			(effects
 				(font

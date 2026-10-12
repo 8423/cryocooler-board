@@ -11,7 +11,7 @@ Id,Designator,Footprint,Quantity,Designation,Part Ref,Link
 10,"TP_VIN1,TP_SCL1,TP_SDA1,TP_VOUT1,TP_AGND1,TP_PGND1",TestPoint_THTPad_D1.5mm_Drill0.7mm,6,TestPoint,,N/A
 11,U2,AD5258BRMZ1_IC,1,AD5258BRMZ1,AD5258BRMZ1,https://www.digikey.com/en/products/detail/analog-devices-inc/AD5258BRMZ1/997172
 12,R3,CRF1206-FZ-R010ELF,1,10mili Ohms,CRF1206-FZ-R010ELF,https://www.digikey.com/en/products/detail/bourns-inc/CRF1206-FZ-R010ELF/6210981
-13,R4,CRCW080530K9FKEA,1,31k,CRCW080530K9FKEA,https://www.digikey.com/en/products/detail/vishay-dale/CRCW080530K9FKEA/1175805
+13,R4,CRCW080530K9FKEA,1,30.9k,CRCW080530K9FKEA,https://www.digikey.com/en/products/detail/vishay-dale/CRCW080530K9FKEA/1175805
 14,Cp1,CGA3E2NP01H220J080AA,1,22pF,CGA3E2NP01H220J080AA,https://www.digikey.com/en/products/detail/tdk-corporation/CGA3E2NP01H220J080AA/3949637
 15,"R8,R7",CRCW08051R00JNEAHP,2,1 ohm,CRCW08051R00JNEAHP,https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051R00JNEAHP/2222366
 16,Rfsw1,CRCW060310K0FKEA,1,10k,CRCW060310K0FKEA,https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782
