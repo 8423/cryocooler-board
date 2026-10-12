@@ -2402,401 +2402,6 @@
 				)
 			)
 		)
-		(symbol "MOLEX_2_pin:2053380002"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "2053380002"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "CONN_2053380000-SD_02_MOL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2053380002?display=pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "2053380002"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CONN_2053380000-SD_02_MOL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2053380002_1_1"
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "2053380002_1_2"
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MOLEX_4_pin:5040500491"
 			(pin_names
 				(offset 0.254)
@@ -4155,6 +3760,12 @@
 		(uuid "6be4f838-0d2d-4e38-9c52-8eea5d0fb657")
 	)
 	(junction
+		(at 231.14 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cc942fc-4a8a-43d3-9a55-f56ee3c99c38")
+	)
+	(junction
 		(at 100.33 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4598,6 +4209,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 142.24) (xy 231.14 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41212801-5731-4ec1-a445-8d8f0bc4d7da")
+	)
+	(wire
+		(pts
 			(xy 73.66 92.71) (xy 73.66 95.25)
 		)
 		(stroke
@@ -4735,6 +4356,16 @@
 			(type default)
 		)
 		(uuid "551d2e8a-d018-4ea7-a833-419c705d8c7f")
+	)
+	(wire
+		(pts
+			(xy 231.14 148.59) (xy 231.14 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b58954-32b6-46c5-b656-c9e18bb0392a")
 	)
 	(wire
 		(pts
@@ -5368,6 +4999,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 148.59) (xy 231.14 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88be302-a195-44ba-9dd0-8da427675b3e")
+	)
+	(wire
+		(pts
 			(xy 92.71 85.09) (xy 110.49 85.09)
 		)
 		(stroke
@@ -5438,6 +5079,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 143.51) (xy 231.14 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd392f86-2a38-4926-955d-bd89e62ad391")
+	)
+	(wire
+		(pts
 			(xy 85.09 157.48) (xy 95.25 157.48)
 		)
 		(stroke
@@ -5465,6 +5116,16 @@
 			(type default)
 		)
 		(uuid "c1b55985-0209-4d7b-a0b4-487b8283ed15")
+	)
+	(wire
+		(pts
+			(xy 222.25 143.51) (xy 231.14 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c235a9fa-593d-4bef-bb44-c7f87328d656")
 	)
 	(wire
 		(pts
@@ -6211,7 +5872,7 @@
 	)
 	(global_label "CRYO_2"
 		(shape input)
-		(at 227.33 144.78 180)
+		(at 222.25 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6221,7 +5882,7 @@
 		)
 		(uuid "9f59574d-8c17-4457-b074-085dc850d3ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.2086 144.78 0)
+			(at 212.1286 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +5916,7 @@
 	)
 	(global_label "CRYO_1"
 		(shape input)
-		(at 227.33 147.32 180)
+		(at 222.25 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6265,7 +5926,7 @@
 		)
 		(uuid "ef89f96d-531c-48a2-91d0-316ef85d0d62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.2086 147.32 0)
+			(at 212.1286 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6711,6 +6372,83 @@
 		)
 	)
 	(symbol
+		(lib_id "MOLEX_4_pin:5040500491")
+		(at 231.14 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1273b9bf-3e08-40da-9c55-2fa0a6675109")
+		(property "Reference" "J4"
+			(at 245.364 152.4 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOL Pico 4"
+			(at 247.904 152.654 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Cryocooler_footprints:MOLEX_4_pin"
+			(at 231.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5040500491?display=pdf"
+			(at 231.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fe88f435-e744-4e25-b246-e8e536227cce")
+		)
+		(pin "2"
+			(uuid "349aeb88-8c81-46e2-ac7f-6e20e7ab0546")
+		)
+		(pin "1"
+			(uuid "07a4e0b6-119d-4851-8c32-b6469c40f9f4")
+		)
+		(pin "4"
+			(uuid "c4bde424-9fc0-44a5-b6f2-63681235b4ef")
+		)
+		(instances
+			(project "Cryocooler_board_4_pin"
+				(path "/fc4eef0c-f0fe-4c26-9eed-35cfade9960a"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 102.87 120.65 180)
 		(unit 1)
@@ -6728,7 +6466,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.047uF"
+		(property "Value" "15nF"
 			(at 112.776 120.904 0)
 			(effects
 				(font
@@ -9466,78 +9204,6 @@
 			(project "try_1_tps5288"
 				(path "/fc4eef0c-f0fe-4c26-9eed-35cfade9960a"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MOLEX_2_pin:2053380002")
-		(at 227.33 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89031ca1-8bc6-4c4a-8917-4c2190225b4d")
-		(property "Reference" "J4"
-			(at 241.3 144.7799 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MOL Pico 2"
-			(at 241.3 147.3199 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Cryocooler_footprints:MOLEX_2_pin"
-			(at 227.33 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2053380002?display=pdf"
-			(at 227.33 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e6e15cc-3805-4cc4-8435-a5c475bed2b2")
-		)
-		(pin "1"
-			(uuid "db780afa-fd41-40ce-94c4-a211383a0ff7")
-		)
-		(instances
-			(project ""
-				(path "/fc4eef0c-f0fe-4c26-9eed-35cfade9960a"
-					(reference "J4")
 					(unit 1)
 				)
 			)
