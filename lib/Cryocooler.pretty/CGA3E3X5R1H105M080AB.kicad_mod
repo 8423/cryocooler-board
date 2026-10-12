@@ -1,0 +1,333 @@
+(footprint "CGA3E3X5R1H105M080AB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "CGA3E3X5R1H105M080AB ")
+	(property "Reference" "REF**"
+		(at 2.3009 0.184 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "26bba719-9456-4a25-b455-cf9558c72dcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1uF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4677e917-01d1-48a3-8411-07696fef798b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Cryocooler:CGA3E3X5R1H105M080AB"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "667aad3a-e421-400e-b8c6-1bfb2b9da9e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77d40d7e-62a8-443e-8257-ac9f3352bc30")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5202a679-0206-4d6e-b743-ae644573afc3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.34015 0.5715)
+		(end 0.34015 0.5715)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa7249dd-d559-4acd-b9fc-f0234f34d487")
+	)
+	(fp_line
+		(start 0.34015 -0.5715)
+		(end -0.34015 -0.5715)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30f8809a-d1b9-478d-a3bd-2edb57c14f54")
+	)
+	(fp_circle
+		(center -2.0447 0)
+		(end -1.9685 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6b09a10a-28d0-402e-bcda-d1a6cde0b420")
+	)
+	(fp_line
+		(start -1.4605 -0.6985)
+		(end 1.4605 -0.6985)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b304d28-41bb-42c9-87b5-51d301e8ba34")
+	)
+	(fp_line
+		(start -1.4605 0.6985)
+		(end -1.4605 -0.6985)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ccd6b25-48a2-40d4-8bec-cf570f34543f")
+	)
+	(fp_line
+		(start 1.4605 -0.6985)
+		(end 1.4605 0.6985)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7237f235-ee5e-4da4-a0ef-3196574deab1")
+	)
+	(fp_line
+		(start 1.4605 0.6985)
+		(end -1.4605 0.6985)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f912a66-f5ce-44c8-8cfd-bebd25c6bb4a")
+	)
+	(fp_line
+		(start -0.8509 -0.4445)
+		(end -0.8509 0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d390467-e1b6-4d27-b298-5555ae51ecf8")
+	)
+	(fp_line
+		(start -0.8509 -0.4445)
+		(end -0.8509 0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eac2c1a8-bfa2-4c7a-9bb0-7dcc173e9e88")
+	)
+	(fp_line
+		(start -0.8509 0.4445)
+		(end -0.6477 0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2cf294d-d60a-44ed-8745-b9593b5ce9f1")
+	)
+	(fp_line
+		(start -0.8509 0.4445)
+		(end 0.8509 0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab8dd38e-448a-4b93-9667-e9cfe7e84fec")
+	)
+	(fp_line
+		(start -0.6477 -0.4445)
+		(end -0.8509 -0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76473c1c-a4c2-455c-8fb2-89c225d85e3e")
+	)
+	(fp_line
+		(start -0.6477 0.4445)
+		(end -0.6477 -0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8fac3c25-4d82-4155-8653-b2125a60ad33")
+	)
+	(fp_line
+		(start 0.6477 -0.4445)
+		(end 0.6477 0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3e6b1cd5-c595-4f26-a30d-b3ec3702e8e4")
+	)
+	(fp_line
+		(start 0.6477 0.4445)
+		(end 0.8509 0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71070d92-85ca-4170-a96e-9b82c951b281")
+	)
+	(fp_line
+		(start 0.8509 -0.4445)
+		(end -0.8509 -0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad16206d-a994-4053-b167-2731a4c6e0c2")
+	)
+	(fp_line
+		(start 0.8509 -0.4445)
+		(end 0.6477 -0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a745ec2-65f4-4b16-9fc3-6e313686a827")
+	)
+	(fp_line
+		(start 0.8509 0.4445)
+		(end 0.8509 -0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ab6882a-2e2c-4996-92a7-f9ff82fe30ed")
+	)
+	(fp_line
+		(start 0.8509 0.4445)
+		(end 0.8509 -0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ae72a17-a304-4bbc-90dd-06c9b4f4810b")
+	)
+	(fp_circle
+		(center -0.8001 0)
+		(end -0.7239 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "dd42666b-e9bb-4d82-8f53-5b9f42d2691e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d8806380-9ef3-4171-9e40-8055fcc10e79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9271 0)
+		(size 0.5588 0.889)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b3a272cd-2d48-4483-9908-d4838432ccbb")
+	)
+	(pad "2" smd rect
+		(at 0.9271 0)
+		(size 0.5588 0.889)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5fce01cb-7a97-4d43-8178-91d95bec3473")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "e506e963-932b-4870-ae05-a6c9e83f92c2")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 52.388 236.7394) (xy 53.5818 236.7394) (xy 53.5818 237.5268) (xy 52.388 237.5268)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CGA3E3X5R1H105M080AB.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

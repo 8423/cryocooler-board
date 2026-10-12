@@ -1,0 +1,192 @@
+(footprint "CRF1206-FZ-R010ELF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CRF1206")
+	(tags "Resistor")
+	(property "Reference" "REF**"
+		(at -3.182 0.032 90)
+		(layer "F.SilkS")
+		(uuid "c0fcc114-bf9c-49ff-b8fa-8afd6cf6c141")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "10mili Ohms"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a520630d-db87-4519-98cb-d79c48333e4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "Cryocooler:CRF1206-FZ-R010ELF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "445addae-4ef0-489d-90bf-265f91956a88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed960cdb-20b1-4bef-985a-71dd5f2a94c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resistor, US symbol"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db050329-ac1e-4837-8c90-80944f7817af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.725)
+		(end 0 0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ad6b6bc-8c1b-41f5-a601-8ef93a0f755d")
+	)
+	(fp_line
+		(start -2.3 -1.2)
+		(end 2.3 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97293094-2060-4aac-bfb2-ac28b51406fc")
+	)
+	(fp_line
+		(start -2.3 1.2)
+		(end -2.3 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b69a103-a929-41ae-b05c-1d2ea5b74a3e")
+	)
+	(fp_line
+		(start 2.3 -1.2)
+		(end 2.3 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57c61695-ae8d-4709-99e0-9affd514e1df")
+	)
+	(fp_line
+		(start 2.3 1.2)
+		(end -2.3 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12464864-2211-48fd-a505-21050b59564b")
+	)
+	(fp_line
+		(start -1.6 -0.825)
+		(end 1.6 -0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a475604-f998-49f2-a68c-ca71a39a156f")
+	)
+	(fp_line
+		(start -1.6 0.825)
+		(end -1.6 -0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f62c0eb-1c67-4f61-aed7-b8e3f4ab9af3")
+	)
+	(fp_line
+		(start 1.6 -0.825)
+		(end 1.6 0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2687aa85-51d2-424a-a479-467f6b3f1d36")
+	)
+	(fp_line
+		(start 1.6 0.825)
+		(end -1.6 0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba80f9da-0df9-48ac-acf6-7473d2fb6829")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1a7ec543-1bee-4b96-b2a9-af7d4683edff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.45 0)
+		(size 1.2 1.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "37086c0d-b53e-4834-9510-8dfdbdb20739")
+	)
+	(pad "2" smd rect
+		(at 1.45 0)
+		(size 1.2 1.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "675a4fb9-7c4d-4bd8-8b6c-b606d9c71080")
+	)
+	(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CRF1206-FZ-R010ELF.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

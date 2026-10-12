@@ -1,0 +1,172 @@
+(footprint "CRCW060310K0FKEA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -6.185 -0.1 180)
+		(layer "F.SilkS")
+		(uuid "752bff4d-6c8c-488a-84ed-c62e4f8254a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "32.4K"
+		(at 1.56 1.07 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34ab82f4-b9fd-49c3-9753-67957c9aadeb")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Footprint" "Cryocooler:CRCW060310K0FKEA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9da74c9f-d26e-4eb3-b2e8-1d481bf5808d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3010c9a1-7f92-4029-8035-19ef2eb0ced4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resistor, US symbol"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93cda1be-9464-47b2-bcc4-bcef882d5255")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.444 -0.74)
+		(end 1.444 -0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d7f283a-4ff4-4d6a-a6d9-18a4aaa8689f")
+	)
+	(fp_line
+		(start -1.444 0.74)
+		(end -1.444 -0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf1cba74-9ba1-4c03-990d-4e20089acd8d")
+	)
+	(fp_line
+		(start -1.444 0.74)
+		(end 1.444 0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c03a5218-7901-4597-a3d9-df62be99f3bc")
+	)
+	(fp_line
+		(start 1.444 0.74)
+		(end 1.444 -0.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "61d2deac-3ab9-4aba-9bf7-7859bc244595")
+	)
+	(fp_line
+		(start -0.83 0.47)
+		(end -0.83 -0.47)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e6bf6af-14d2-4e48-a3a7-6e38a07835d6")
+	)
+	(fp_line
+		(start 0.83 -0.47)
+		(end -0.83 -0.47)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "631b3cab-641c-4eb5-9bb3-d93055343ee5")
+	)
+	(fp_line
+		(start 0.83 0.47)
+		(end -0.83 0.47)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a18bf3d-8681-41b7-aea5-3708bc1a6fff")
+	)
+	(fp_line
+		(start 0.83 0.47)
+		(end 0.83 -0.47)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8782628-14e9-4407-9344-b9eedf4df3ac")
+	)
+	(pad "1" smd rect
+		(at -0.765 0)
+		(size 0.86 0.98)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "c2f9ac94-72ac-4cb8-a873-123cfba318fb")
+	)
+	(pad "2" smd rect
+		(at 0.765 0)
+		(size 0.86 0.98)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "4500e6d8-d815-453b-9119-f138019a0702")
+	)
+	(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CRCW060310K0FKEA.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 0)
+		)
+	)
+)

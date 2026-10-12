@@ -171,7 +171,7 @@
 	(net 25 "unconnected-(U1-FB{slash}*INT-Pad14)")
 	(net 26 "PGND")
 	(net 27 "VIN_PRE")
-	(footprint "Cryocooler_footprints:MOLEX_4_pin"
+	(footprint "Cryocooler:MOLEX_4_pin"
 		(layer "F.Cu")
 		(uuid "06df436c-a837-4072-b76e-dc488809e7ff")
 		(at 111.5962 92.4848 90)
@@ -200,7 +200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:MOLEX_4_pin"
+		(property "Footprint" "Cryocooler:MOLEX_4_pin"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -466,7 +466,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(uuid "a8fde5e1-7acf-4781-a2ed-bde957d0e823")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/MOLEX_4_pin.stp"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/MOLEX_4_pin.stp"
 			(offset
 				(xyz -2.4 5.5 0)
 			)
@@ -478,7 +478,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:M3_3_4mm_hole"
+	(footprint "Cryocooler:M3_3_4mm_hole"
 		(layer "F.Cu")
 		(uuid "073e4a6f-8692-4b5e-bbfa-590671fd3e22")
 		(at 162.075 105.475)
@@ -507,7 +507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:M3_3_4mm_hole"
+		(property "Footprint" "Cryocooler:M3_3_4mm_hole"
 			(at 0.4 -10.425 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -570,7 +570,7 @@
 			(uuid "2b704242-25df-4a76-9f7a-ba3f1723e89e")
 		)
 	)
-	(footprint "Cryocooler_footprints:CRCW12062K20JNEA"
+	(footprint "Cryocooler:CRCW12062K20JNEA"
 		(layer "F.Cu")
 		(uuid "1016ac67-a953-4329-9abf-669f09a5260c")
 		(at 118.135 82.472 -90)
@@ -597,7 +597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CRCW12062K20JNEA"
+		(property "Footprint" "Cryocooler:CRCW12062K20JNEA"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -756,7 +756,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "3f661dc3-fa75-4600-bf05-584fe4c078b3")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CRCW12062K20JNEA.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CRCW12062K20JNEA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -768,7 +768,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:GCM21BR72A104KA37L"
+	(footprint "Cryocooler:GCM21BR72A104KA37L"
 		(layer "F.Cu")
 		(uuid "1f195bdf-623e-4a44-90fa-5617190670c4")
 		(at 141.503 85.68 90)
@@ -795,7 +795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:GCM21BR72A104KA37L"
+		(property "Footprint" "Cryocooler:GCM21BR72A104KA37L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -934,7 +934,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "98269b55-3a9a-4a31-9fd8-2d2935dee21f")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/GCM21BR72A104KA37L.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/GCM21BR72A104KA37L.step"
 			(offset
 				(xyz 0 -0.7 0.65)
 			)
@@ -946,7 +946,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CGA3E3X5R1H105M080AB"
+	(footprint "Cryocooler:CGA3E3X5R1H105M080AB"
 		(layer "F.Cu")
 		(uuid "200098d9-0dca-4882-a797-495f75e603b6")
 		(at 136.9178 75.7673 90)
@@ -975,7 +975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CGA3E3X5R1H105M080AB"
+		(property "Footprint" "Cryocooler:CGA3E3X5R1H105M080AB"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1274,7 +1274,7 @@
 				)
 			)
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CGA3E3X5R1H105M080AB.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CGA3E3X5R1H105M080AB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1286,7 +1286,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CRCW08052K00FKEA"
+	(footprint "Cryocooler:CRCW08052K00FKEA"
 		(layer "F.Cu")
 		(uuid "226f92b3-4fac-4424-9370-de4ee8ba8a56")
 		(at 127.279 79.193 90)
@@ -1313,7 +1313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CRCW08052K00FKEA"
+		(property "Footprint" "Cryocooler:CRCW08052K00FKEA"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1472,7 +1472,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "cc158902-edde-4cdb-8644-e498fe83340f")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CRCW08052K00FKEA.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CRCW08052K00FKEA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1484,7 +1484,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:0685T4000-01"
+	(footprint "Cryocooler:0685T4000-01"
 		(layer "F.Cu")
 		(uuid "29a0c14b-b89c-4661-816e-22fbeeac11c9")
 		(at 119.2526 90.639)
@@ -1513,7 +1513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:0685T4000-01"
+		(property "Footprint" "Cryocooler:0685T4000-01"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1803,7 +1803,7 @@
 				)
 			)
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/0685T4000-01.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/0685T4000-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1815,7 +1815,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CGA3E2X7R1H473K080AD"
+	(footprint "Cryocooler:CGA3E2X7R1H473K080AD"
 		(layer "F.Cu")
 		(uuid "2b72f83e-50db-41e8-9175-80d48c46a841")
 		(at 148.125 91.4521 90)
@@ -1845,7 +1845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CGA3E2X7R1H473K080AD"
+		(property "Footprint" "Cryocooler:CGA3E2X7R1H473K080AD"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2144,7 +2144,7 @@
 				)
 			)
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CGA3E2X7R1H473K080AD.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CGA3E2X7R1H473K080AD.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2156,7 +2156,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CGA5L1X7R1H106K160AC"
+	(footprint "Cryocooler:CGA5L1X7R1H106K160AC"
 		(layer "F.Cu")
 		(uuid "3abb3afe-f366-46ac-9238-5a563ca313b8")
 		(at 151.688 88.779 -90)
@@ -2183,7 +2183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CGA5L1X7R1H106K160AC"
+		(property "Footprint" "Cryocooler:CGA5L1X7R1H106K160AC"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2343,7 +2343,7 @@
 			(zone_connect 1)
 			(uuid "3160044e-d775-43d6-9770-0d8ffc9e9001")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CGA5L1X7R1H106K160AC.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CGA5L1X7R1H106K160AC.step"
 			(offset
 				(xyz 0 -0.98 0.75)
 			)
@@ -2364,8 +2364,7 @@
 		(property "Reference" "TP_VIN1"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4e1b6fc7-aa54-40b3-9b47-f44c51028f7c")
+			(uuid "e72540a2-7c4c-416b-8726-360e5bb6e7e3")
 			(effects
 				(font
 					(size 1 1)
@@ -2376,8 +2375,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 0)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "fda252bd-3e9b-45cd-8f7e-69f29f0beecb")
+			(uuid "ccd8ead2-9f62-4256-b330-b21c0dadd7bb")
 			(effects
 				(font
 					(size 1 1)
@@ -2390,7 +2388,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd398101-8cbf-4a75-9b46-34a4bf959e25")
+			(uuid "38da5d6a-973a-40a0-a2f5-c421d3a9c0f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,7 +2401,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc30ca7e-94be-4336-91da-2b1443804d5d")
+			(uuid "75e9ed99-60c7-4e37-8dd7-2a19be862d90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2414,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f634331-12d1-4e38-bfac-95471b7b5039")
+			(uuid "717d691b-9516-4291-8ab3-f616574fbf81")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,7 +2426,7 @@
 		(path "/7f1c948c-a235-48ad-935a-bfedf2d5ddaf")
 		(sheetname "Root")
 		(sheetfile "Cryocooler_board_4_pin.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.95)
@@ -2438,7 +2436,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "a8486f8d-3504-4499-93f7-4e2203a19dfc")
+			(uuid "05d82d92-8fad-454d-8ef7-9cae7803d83e")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2449,12 +2447,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "1b0b964a-2cdb-435b-abba-e643a556e175")
+			(uuid "333f6c0d-a79f-43ea-b851-533c3e9f22c1")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.65 0)
 			(layer "F.Fab")
-			(uuid "e2d577e8-2765-4599-bfa3-6c8b7b83a36e")
+			(uuid "528437b8-adf2-4338-81da-7d5a721d847b")
 			(effects
 				(font
 					(size 1 1)
@@ -2471,10 +2469,10 @@
 			(net 11 "VIN")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "2593fb3e-4362-413a-8f4b-cac81c5e0597")
+			(uuid "ffdfb2e1-7b13-4ca3-87bd-7a8127b47804")
 		)
 	)
-	(footprint "Cryocooler_footprints:M3_3_4mm_hole"
+	(footprint "Cryocooler:M3_3_4mm_hole"
 		(layer "F.Cu")
 		(uuid "4443a17f-436c-46e9-9dc4-669a7f042470")
 		(at 161.975 65.875)
@@ -2503,7 +2501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:M3_3_4mm_hole"
+		(property "Footprint" "Cryocooler:M3_3_4mm_hole"
 			(at 0.4 -10.425 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2575,8 +2573,7 @@
 		(property "Reference" "TP_SCL1"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a0b0d0f9-4e56-43eb-bea5-a8dea10a8070")
+			(uuid "b3249016-1bac-45b9-9a8b-c6fbccd56c67")
 			(effects
 				(font
 					(size 1 1)
@@ -2587,8 +2584,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 0)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "b1d09511-45ce-4081-b312-f4d14044a294")
+			(uuid "c14aca1e-2331-4f51-867d-c923a933cccd")
 			(effects
 				(font
 					(size 1 1)
@@ -2601,7 +2597,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa2d521b-2695-4185-be77-ed57c5b7c493")
+			(uuid "f8adf33e-fd50-46a9-846f-176ad9f80e84")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2610,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8022bc19-c6e3-418d-878e-01004de316d8")
+			(uuid "45bd0fd6-e94f-4280-a567-0269bea3102b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,7 +2623,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe477e1c-d606-43dc-b3bf-795e2ebe3c58")
+			(uuid "3e34db2c-3732-45bc-8a41-221f126751b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +2635,7 @@
 		(path "/5508c101-19af-4986-959a-123984198fa5")
 		(sheetname "Root")
 		(sheetfile "Cryocooler_board_4_pin.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.95)
@@ -2649,7 +2645,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "d8931a1e-bf19-4161-a4a9-0e84817c2cbe")
+			(uuid "a0a6ec00-4aa1-4bb9-bda0-e32c1fc0c5f1")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2660,12 +2656,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "1447d941-b92c-49da-86dc-f1c67bce96ec")
+			(uuid "d82ef38d-2a3e-44a5-9670-247169f1b840")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.65 0)
 			(layer "F.Fab")
-			(uuid "d21e7728-a5f5-4429-b4a5-1b409c26752d")
+			(uuid "e2d449a6-a472-4182-b191-c2a22b7909ae")
 			(effects
 				(font
 					(size 1 1)
@@ -2682,10 +2678,10 @@
 			(net 14 "SCL")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "95dff107-d9d7-4eca-a0bf-479960ff7aae")
+			(uuid "05c20699-dd9e-4c48-b0e0-74d54010453e")
 		)
 	)
-	(footprint "Cryocooler_footprints:AD5258BRMZ1_IC"
+	(footprint "Cryocooler:AD5258BRMZ1_IC"
 		(layer "F.Cu")
 		(uuid "51e14d81-38b5-4df1-876c-4eb360b293aa")
 		(at 130.8892 74.2892)
@@ -2714,7 +2710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:AD5258BRMZ1_IC"
+		(property "Footprint" "Cryocooler:AD5258BRMZ1_IC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3534,7 +3530,7 @@
 			(pintype "unspecified")
 			(uuid "28d76ed8-1bd2-4250-b0f2-6d961c6f40f2")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/AD5258BRMZ1-R7.stp"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/AD5258BRMZ1-R7.stp"
 			(offset
 				(xyz 0 0 0.5)
 			)
@@ -3546,7 +3542,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CRF1206-FZ-R010ELF"
+	(footprint "Cryocooler:CRF1206-FZ-R010ELF"
 		(layer "F.Cu")
 		(uuid "5404612c-0982-477f-aea3-40c4aca29a82")
 		(at 156.743 83.093 90)
@@ -3575,7 +3571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CRF1206-FZ-R010ELF"
+		(property "Footprint" "Cryocooler:CRF1206-FZ-R010ELF"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3733,7 +3729,7 @@
 			(pintype "passive")
 			(uuid "e0af4298-323b-4c41-a6f6-6bf0004e65bb")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CRF1206-FZ-R010ELF.stp"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CRF1206-FZ-R010ELF.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3745,7 +3741,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:GCM21BR72A104KA37L"
+	(footprint "Cryocooler:GCM21BR72A104KA37L"
 		(layer "F.Cu")
 		(uuid "5500478e-4965-450a-b279-2d5c534fdcdf")
 		(at 129.375 79.17 90)
@@ -3772,7 +3768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:GCM21BR72A104KA37L"
+		(property "Footprint" "Cryocooler:GCM21BR72A104KA37L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3911,7 +3907,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "7c5c9061-8145-45dc-9939-8ab3c299ef1b")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/GCM21BR72A104KA37L.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/GCM21BR72A104KA37L.step"
 			(offset
 				(xyz 0 -0.7 0.57)
 			)
@@ -3923,7 +3919,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CRCW080530K9FKEA"
+	(footprint "Cryocooler:CRCW080530K9FKEA"
 		(layer "F.Cu")
 		(uuid "5e233c20-1e48-4fba-8370-7c41546137d5")
 		(at 125.501 86.813 90)
@@ -3952,7 +3948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CRCW080530K9FKEA"
+		(property "Footprint" "Cryocooler:CRCW080530K9FKEA"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4110,7 +4106,7 @@
 			(pintype "passive")
 			(uuid "4eea2aa1-e861-4e82-8563-e1eab243be6c")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CRCW080530K9FKEA.stp"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CRCW080530K9FKEA.stp"
 			(offset
 				(xyz 1 0.65 0)
 			)
@@ -4122,7 +4118,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:MOLEX_4_pin"
+	(footprint "Cryocooler:MOLEX_4_pin"
 		(layer "F.Cu")
 		(uuid "604cac78-fa9b-4e02-9c11-2b7c86ccd752")
 		(at 111.58 79.83345 90)
@@ -4151,7 +4147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:MOLEX_4_pin"
+		(property "Footprint" "Cryocooler:MOLEX_4_pin"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4415,7 +4411,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(uuid "85ffafc0-c1e0-4d19-af41-c9735e99e5a0")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/MOLEX_4_pin.stp"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/MOLEX_4_pin.stp"
 			(offset
 				(xyz -2.3 5 0)
 			)
@@ -4427,7 +4423,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CGA5L1X7R1H106K160AC"
+	(footprint "Cryocooler:CGA5L1X7R1H106K160AC"
 		(layer "F.Cu")
 		(uuid "7049c554-c36a-4fcc-ab07-7d963374f59c")
 		(at 127.537 97.809 -90)
@@ -4454,7 +4450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CGA5L1X7R1H106K160AC"
+		(property "Footprint" "Cryocooler:CGA5L1X7R1H106K160AC"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4614,7 +4610,7 @@
 			(zone_connect 1)
 			(uuid "25fbcb85-082a-4211-a2db-f536b620ee9a")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CGA5L1X7R1H106K160AC.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CGA5L1X7R1H106K160AC.step"
 			(offset
 				(xyz 0 -0.95 0.79)
 			)
@@ -4626,7 +4622,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CGA3E2NP01H220J080AA"
+	(footprint "Cryocooler:CGA3E2NP01H220J080AA"
 		(layer "F.Cu")
 		(uuid "72798079-95c3-481b-8909-67fc12b870ff")
 		(at 146.2274 79.6176 90)
@@ -4652,7 +4648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CGA3E2NP01H220J080AA"
+		(property "Footprint" "Cryocooler:CGA3E2NP01H220J080AA"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4791,7 +4787,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "b25e1b00-d38a-4087-a330-ad6280f428f6")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CGA3E2NP01H220J080AA.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CGA3E2NP01H220J080AA.step"
 			(offset
 				(xyz 0 -0.45 0.4)
 			)
@@ -4803,7 +4799,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CRCW08051R00JNEAHP"
+	(footprint "Cryocooler:CRCW08051R00JNEAHP"
 		(layer "F.Cu")
 		(uuid "742762ca-fa7d-4b33-96c9-9609afa5f582")
 		(at 142.011 96.654 90)
@@ -4830,7 +4826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CRCW08051R00JNEAHP"
+		(property "Footprint" "Cryocooler:CRCW08051R00JNEAHP"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4989,7 +4985,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "67b9d658-bc2f-470b-aa5a-15eaf5a54e5c")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CRCW08051R00JNEAHP.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CRCW08051R00JNEAHP.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5001,7 +4997,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CGA5L1X7R1H106K160AC"
+	(footprint "Cryocooler:CGA5L1X7R1H106K160AC"
 		(layer "F.Cu")
 		(uuid "7c0b46ed-64bd-4220-a846-5782d66f78a7")
 		(at 154.203 88.755 -90)
@@ -5028,7 +5024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CGA5L1X7R1H106K160AC"
+		(property "Footprint" "Cryocooler:CGA5L1X7R1H106K160AC"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5188,7 +5184,7 @@
 			(zone_connect 1)
 			(uuid "9e707cf0-2948-4dde-8437-53360b880463")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CGA5L1X7R1H106K160AC.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CGA5L1X7R1H106K160AC.step"
 			(offset
 				(xyz 0 -0.98 0.75)
 			)
@@ -5200,7 +5196,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CRCW060310K0FKEA"
+	(footprint "Cryocooler:CRCW060310K0FKEA"
 		(layer "F.Cu")
 		(uuid "80a83a5e-2ef7-4a51-8ca3-246ab6758981")
 		(at 149.625 91.44 90)
@@ -5228,7 +5224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CRCW060310K0FKEA"
+		(property "Footprint" "Cryocooler:CRCW060310K0FKEA"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5367,7 +5363,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "aa31cedc-4a4a-45df-b760-b2eaee574875")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CRCW060310K0FKEA.STEP"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CRCW060310K0FKEA.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5379,7 +5375,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CRCW08051R00JNEAHP"
+	(footprint "Cryocooler:CRCW08051R00JNEAHP"
 		(layer "F.Cu")
 		(uuid "824cb6c3-4c93-4f16-a705-2a29a72b509c")
 		(at 144.551 96.654 90)
@@ -5406,7 +5402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CRCW08051R00JNEAHP"
+		(property "Footprint" "Cryocooler:CRCW08051R00JNEAHP"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5565,7 +5561,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "3cfa16f7-4a8c-4bea-88b8-1bdcb8e56499")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CRCW08051R00JNEAHP.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CRCW08051R00JNEAHP.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5577,7 +5573,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CRCW060326K1FKEA"
+	(footprint "Cryocooler:CRCW060326K1FKEA"
 		(layer "F.Cu")
 		(uuid "834a94cf-98e1-44b0-9eef-ed3c319f1f41")
 		(at 145.51 81.875)
@@ -5603,7 +5599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CRCW060326K1FKEA"
+		(property "Footprint" "Cryocooler:CRCW060326K1FKEA"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5742,7 +5738,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "852c9535-fc0e-4268-8ed0-5d18ea348ce6")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CRCW060326K1FKEA.STEP"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CRCW060326K1FKEA.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5754,7 +5750,7 @@
 			)
 		)
 	)
-	(footprint "NetTie:NetTie-2_SMD_Pad0.5mm"
+	(footprint "Cryocooler:NetTie-2_SMD_Pad0.3mm"
 		(layer "F.Cu")
 		(uuid "85667704-f60e-41ef-ac74-551fce3368a5")
 		(at 148.4118 87.6926 90)
@@ -5784,7 +5780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+		(property "Footprint" "Cryocooler:NetTie-2_SMD_Pad0.3mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5863,7 +5859,7 @@
 			(uuid "24038474-d90a-44db-95d0-dbee889765dd")
 		)
 	)
-	(footprint "Cryocooler_footprints:CGA5L1X7R1H106K160AC"
+	(footprint "Cryocooler:CGA5L1X7R1H106K160AC"
 		(layer "F.Cu")
 		(uuid "85d68775-a01a-41cc-a950-58a16b8ad1fc")
 		(at 154.375 83.233 90)
@@ -5890,7 +5886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CGA5L1X7R1H106K160AC"
+		(property "Footprint" "Cryocooler:CGA5L1X7R1H106K160AC"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6050,7 +6046,7 @@
 			(zone_connect 2)
 			(uuid "d3eeeb29-9d87-4896-9f17-b4ba56c3f780")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CGA5L1X7R1H106K160AC.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CGA5L1X7R1H106K160AC.step"
 			(offset
 				(xyz 0 -0.98 0.75)
 			)
@@ -6062,7 +6058,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CRCW12062K20JNEA"
+	(footprint "Cryocooler:CRCW12062K20JNEA"
 		(layer "F.Cu")
 		(uuid "86bcb17d-f22b-4de5-9967-c9fbe4bcda3b")
 		(at 118.135 77.47 90)
@@ -6089,7 +6085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CRCW12062K20JNEA"
+		(property "Footprint" "Cryocooler:CRCW12062K20JNEA"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6248,7 +6244,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "42ac37a3-974e-4380-979f-f82ef3aae3d2")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CRCW12062K20JNEA.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CRCW12062K20JNEA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6260,7 +6256,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:MOLEX_4_pin"
+	(footprint "Cryocooler:MOLEX_4_pin"
 		(layer "F.Cu")
 		(uuid "88720ac6-e171-4e5d-80da-311083db42cf")
 		(at 162.327001 92.93 -90)
@@ -6289,7 +6285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:MOLEX_4_pin"
+		(property "Footprint" "Cryocooler:MOLEX_4_pin"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6553,7 +6549,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(uuid "b93c2a15-7513-4d20-8e98-f1752bb7d5e8")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/MOLEX_4_pin.stp"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/MOLEX_4_pin.stp"
 			(offset
 				(xyz -2.25 5.25 0)
 			)
@@ -6565,7 +6561,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CGA5L1X7R1H106K160AC"
+	(footprint "Cryocooler:CGA5L1X7R1H106K160AC"
 		(layer "F.Cu")
 		(uuid "88e6592f-95bd-47d8-946d-478966f16df1")
 		(at 130.327 97.899 -90)
@@ -6592,7 +6588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CGA5L1X7R1H106K160AC"
+		(property "Footprint" "Cryocooler:CGA5L1X7R1H106K160AC"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6752,7 +6748,7 @@
 			(zone_connect 1)
 			(uuid "c4b2d8bf-50ae-4abc-8955-0922a230b60a")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CGA5L1X7R1H106K160AC.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CGA5L1X7R1H106K160AC.step"
 			(offset
 				(xyz 0 -0.92 0.77)
 			)
@@ -6773,8 +6769,7 @@
 		(property "Reference" "TP_SDA1"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7af83150-695c-498e-860e-bdb715f09c51")
+			(uuid "676c4d15-cf2d-4373-8bbd-98b02b945d4d")
 			(effects
 				(font
 					(size 1 1)
@@ -6785,8 +6780,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 0)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "78b3a0e5-8853-45b8-b003-6bb9a793ed05")
+			(uuid "a13a1093-98e3-47b8-b0fe-79cc3b76e1a7")
 			(effects
 				(font
 					(size 1 1)
@@ -6799,7 +6793,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc35bfd8-faa2-4eb0-974a-35564e225d2b")
+			(uuid "18029d2b-bb66-4e05-9463-38b9ae6d24ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,7 +6806,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09abb203-c00d-4288-a401-c6581ec608ad")
+			(uuid "08c1fa7e-5d81-40b8-b19a-f0f44178e788")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +6819,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a913c207-6e7c-4edc-912c-310deac32cd3")
+			(uuid "0be9dda4-2bb4-4547-b10a-31db38d8a33c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6837,7 +6831,7 @@
 		(path "/a2114c64-5668-497c-b5d4-e0b61bde3c76")
 		(sheetname "Root")
 		(sheetfile "Cryocooler_board_4_pin.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.95)
@@ -6847,7 +6841,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "08ce8f59-ce15-4b0a-b7cd-24639547f0b2")
+			(uuid "19275aea-08b8-4433-9296-7f71a8583597")
 		)
 		(fp_circle
 			(center 0 0)
@@ -6858,12 +6852,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "a90f8f37-e9ad-470a-b517-1fb8ca9342f5")
+			(uuid "50867f64-ba02-4609-9fa9-fe8330d59977")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.65 0)
 			(layer "F.Fab")
-			(uuid "88030784-a040-40cd-ad8f-fe572332c671")
+			(uuid "83d43535-38fb-4e7d-802b-5e30328e794e")
 			(effects
 				(font
 					(size 1 1)
@@ -6880,10 +6874,10 @@
 			(net 15 "SDA")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "5af509a8-7cc7-48c9-a5de-a5a20bfd813a")
+			(uuid "a846883b-8f70-4466-b48a-da8b7390768a")
 		)
 	)
-	(footprint "Cryocooler_footprints:GCM21BR72A104KA37L"
+	(footprint "Cryocooler:GCM21BR72A104KA37L"
 		(layer "F.Cu")
 		(uuid "90c94241-c97a-4b4e-8a0e-7846b45d8ec9")
 		(at 141.503 89.236 90)
@@ -6909,7 +6903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:GCM21BR72A104KA37L"
+		(property "Footprint" "Cryocooler:GCM21BR72A104KA37L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7048,7 +7042,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "05d495c7-a45c-4c72-90b1-5b2c2410d772")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/GCM21BR72A104KA37L.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/GCM21BR72A104KA37L.step"
 			(offset
 				(xyz 0 -0.7 0.6)
 			)
@@ -7060,7 +7054,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CGA3E3X5R1H105M080AB"
+	(footprint "Cryocooler:CGA3E3X5R1H105M080AB"
 		(layer "F.Cu")
 		(uuid "96a79897-6eb2-4d77-a7e8-d349eec21f72")
 		(at 149.5294 86.9941 -90)
@@ -7089,7 +7083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CGA3E3X5R1H105M080AB"
+		(property "Footprint" "Cryocooler:CGA3E3X5R1H105M080AB"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7389,7 +7383,7 @@
 				)
 			)
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CGA3E3X5R1H105M080AB.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CGA3E3X5R1H105M080AB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7401,7 +7395,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CRCW120620K0FKEAC"
+	(footprint "Cryocooler:CRCW120620K0FKEAC"
 		(layer "F.Cu")
 		(uuid "9b8cf523-bbf7-4d95-ae19-840733d26dc1")
 		(at 148.0562 80.3266 90)
@@ -7427,7 +7421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CRCW120620K0FKEAC"
+		(property "Footprint" "Cryocooler:CRCW120620K0FKEAC"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7586,7 +7580,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "6f1b6b29-4568-4cc5-8718-a61863747a30")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CRCW120620K0FKEAC.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CRCW120620K0FKEAC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7607,8 +7601,7 @@
 		(property "Reference" "TP_VOUT1"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7a7abdcf-9270-4c40-b964-c2a838ebca1b")
+			(uuid "671290ab-a44a-4b94-a189-26310569f7c6")
 			(effects
 				(font
 					(size 1 1)
@@ -7619,8 +7612,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 0)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "a60d5a6f-0c25-4b7d-b56d-67a032ff9ded")
+			(uuid "a711e255-cd43-440d-b661-53dc3572f11c")
 			(effects
 				(font
 					(size 1 1)
@@ -7633,7 +7625,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba2c3ffc-04f3-4b53-b52d-a703822a5c1d")
+			(uuid "6fe450aa-92fb-4748-938b-4cad8a4fd565")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7646,7 +7638,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f8afb057-8913-478a-af5e-0eb109f15458")
+			(uuid "5a82beaf-34e6-4923-a8d6-91bf1769baeb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7659,7 +7651,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48f02cb5-b0de-4c21-b5c8-d567bae36217")
+			(uuid "ab7f0100-6e41-42a7-be1a-41ea3c49a921")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +7663,7 @@
 		(path "/379f864b-1474-40d6-97f8-0878d89b701d")
 		(sheetname "Root")
 		(sheetfile "Cryocooler_board_4_pin.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.95)
@@ -7681,7 +7673,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "bce4f09a-5dbc-49b4-9a56-9406cbed6985")
+			(uuid "2e84d53a-bac8-4829-a01f-8515b0f7c6aa")
 		)
 		(fp_circle
 			(center 0 0)
@@ -7692,12 +7684,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "f0272adb-2320-4c5b-b5f0-b36881743f49")
+			(uuid "69335242-b185-4f29-92a1-6e0b130020ed")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.65 0)
 			(layer "F.Fab")
-			(uuid "d68d0fb5-9c0f-4548-93e8-973938349e58")
+			(uuid "4264a090-3c88-475e-8f69-f975edd729e3")
 			(effects
 				(font
 					(size 1 1)
@@ -7714,10 +7706,10 @@
 			(net 13 "VOUT")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "136102aa-578d-4628-9083-6e22bf322c8b")
+			(uuid "c6e5fa14-a58b-44f3-89ad-aa55aa08f3c5")
 		)
 	)
-	(footprint "Cryocooler_footprints:GRT188R61C475KE13D"
+	(footprint "Cryocooler:GRT188R61C475KE13D"
 		(layer "F.Cu")
 		(uuid "9cb86a4d-be25-4ef1-9c50-cac342e9e4d9")
 		(at 143.281 82.631 -90)
@@ -7745,7 +7737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:GRT188R61C475KE13D"
+		(property "Footprint" "Cryocooler:GRT188R61C475KE13D"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7884,7 +7876,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "cbc696b9-8974-45f1-9b6e-1dd1f5eb6e7e")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/GRT188R61C475KE13D.stp"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/GRT188R61C475KE13D.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7896,7 +7888,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:IPZ40N04S5L4R8ATMA1"
+	(footprint "Cryocooler:IPZ40N04S5L4R8ATMA1"
 		(layer "F.Cu")
 		(uuid "9f751bc8-b28a-47bf-b067-1372a73ec034")
 		(at 133.883 96.187 -90)
@@ -7922,7 +7914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:IPZ40N04S5L4R8ATMA1"
+		(property "Footprint" "Cryocooler:IPZ40N04S5L4R8ATMA1"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8327,7 +8319,7 @@
 			)
 			(uuid "675f6b74-6cd3-4e86-a458-4004b6cb0030")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/IPZ40N04S5L4R8ATMA1.stp"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/IPZ40N04S5L4R8ATMA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8339,7 +8331,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:IPZ40N04S5L4R8ATMA1"
+	(footprint "Cryocooler:IPZ40N04S5L4R8ATMA1"
 		(layer "F.Cu")
 		(uuid "a111f9c6-982e-4449-b6b9-35da90f53d16")
 		(at 137.947 96.119 90)
@@ -8365,7 +8357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:IPZ40N04S5L4R8ATMA1"
+		(property "Footprint" "Cryocooler:IPZ40N04S5L4R8ATMA1"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8758,7 +8750,7 @@
 			)
 			(uuid "ae0db467-4fa5-4e2d-88b8-29a1ebb6250b")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/IPZ40N04S5L4R8ATMA1.stp"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/IPZ40N04S5L4R8ATMA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8770,7 +8762,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:M3_3_4mm_hole"
+	(footprint "Cryocooler:M3_3_4mm_hole"
 		(layer "F.Cu")
 		(uuid "a375da80-66fa-44c6-923a-3ba62771cb75")
 		(at 112.075 65.875)
@@ -8799,7 +8791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:M3_3_4mm_hole"
+		(property "Footprint" "Cryocooler:M3_3_4mm_hole"
 			(at 0.4 -10.425 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8862,7 +8854,7 @@
 			(uuid "4a1a1a22-9f90-42f2-8174-8befe3945b13")
 		)
 	)
-	(footprint "Cryocooler_footprints:GCM21BR72A104KA37L"
+	(footprint "Cryocooler:GCM21BR72A104KA37L"
 		(layer "F.Cu")
 		(uuid "a695f377-da3d-4abd-b9f1-8a826ff9f091")
 		(at 139.2678 75.7352 90)
@@ -8888,7 +8880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:GCM21BR72A104KA37L"
+		(property "Footprint" "Cryocooler:GCM21BR72A104KA37L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9027,7 +9019,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "828fb5a8-963e-4a01-a54c-46d3883028eb")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/GCM21BR72A104KA37L.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/GCM21BR72A104KA37L.step"
 			(offset
 				(xyz 0 -0.7 0.6)
 			)
@@ -9039,7 +9031,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:EEH-ZA1V680XP"
+	(footprint "Cryocooler:EEH-ZA1V680XP"
 		(layer "F.Cu")
 		(uuid "b0aaffcf-257c-4f25-9370-a6afa71b6069")
 		(at 152.475 74.4 90)
@@ -9065,7 +9057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:EEH-ZA1V680XP"
+		(property "Footprint" "Cryocooler:EEH-ZA1V680XP"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9426,7 +9418,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "656601c4-7817-49e1-8784-1552a7609735")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/EEH-ZA1V680XP.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/EEH-ZA1V680XP.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9438,7 +9430,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:M3_3_4mm_hole"
+	(footprint "Cryocooler:M3_3_4mm_hole"
 		(layer "F.Cu")
 		(uuid "d01d3842-280d-433c-9b40-d0204a2514ba")
 		(at 112.075 105.475)
@@ -9467,7 +9459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:M3_3_4mm_hole"
+		(property "Footprint" "Cryocooler:M3_3_4mm_hole"
 			(at 0.4 -10.425 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9539,8 +9531,7 @@
 		(property "Reference" "TP_AGND1"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9ccc16a0-e350-4604-9fa7-28259a413d35")
+			(uuid "53046139-24ab-4a45-a424-4aead47648cf")
 			(effects
 				(font
 					(size 1 1)
@@ -9551,8 +9542,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 0)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "6624b9f3-16a8-4ad7-8349-b83ef7823528")
+			(uuid "2d532ef9-292e-4dbd-8138-7df13d7e11ac")
 			(effects
 				(font
 					(size 1 1)
@@ -9565,7 +9555,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ace3f1b-2d4f-4d85-b924-45f4ba9fd638")
+			(uuid "e1c4f5f0-1b15-4741-9845-b738f9345b9c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9578,7 +9568,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d22ddc18-dbcf-4851-9776-924ce8c17ba1")
+			(uuid "1acfc9df-828f-4d15-a1c8-df3fc1efbdc9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9591,7 +9581,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a18b913e-2211-4bd3-a0cc-5f55cba50df5")
+			(uuid "d1c93695-5312-4e44-a04a-0b146c2e0bd6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +9593,7 @@
 		(path "/21683ae4-57c4-4ca4-819a-79fe86669eee")
 		(sheetname "Root")
 		(sheetfile "Cryocooler_board_4_pin.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.95)
@@ -9613,7 +9603,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "a87baced-e60b-4320-82c1-6acdba1f4fc6")
+			(uuid "566ad314-3991-4954-bb5d-aa8873d286e2")
 		)
 		(fp_circle
 			(center 0 0)
@@ -9624,12 +9614,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "f6f5bd42-e5fd-46b9-8da0-c3c14a58a87c")
+			(uuid "80d2073b-cdc1-4d42-b0ad-334ff57c85ba")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.65 0)
 			(layer "F.Fab")
-			(uuid "c14acfb2-9beb-438f-aa91-a69ae9d98506")
+			(uuid "399a9b79-6333-46ff-9149-8edb23155844")
 			(effects
 				(font
 					(size 1 1)
@@ -9646,10 +9636,10 @@
 			(net 3 "AGND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "468201b8-b0d5-46e9-8468-18269dec3396")
+			(uuid "536854a3-8fa4-4571-9a56-80eac2184fb0")
 		)
 	)
-	(footprint "Cryocooler_footprints:TPS55288"
+	(footprint "Cryocooler:TPS55288"
 		(layer "F.Cu")
 		(uuid "d8702bcf-bcc5-4a5a-a844-ff9c0ad86947")
 		(at 145.7099 87.2259 90)
@@ -9678,7 +9668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:TPS55288"
+		(property "Footprint" "Cryocooler:TPS55288"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10663,7 +10653,7 @@
 			(pintype "power_in")
 			(uuid "ca13dbbe-8730-4d19-8c82-29a615fba9bd")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/TPS55288.stp"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/TPS55288.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10675,7 +10665,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:EEH-ZA1V680XP"
+	(footprint "Cryocooler:EEH-ZA1V680XP"
 		(layer "F.Cu")
 		(uuid "d95256f5-de1e-4169-a541-79fb40318bf7")
 		(at 122.707 97.711 -90)
@@ -10701,7 +10691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:EEH-ZA1V680XP"
+		(property "Footprint" "Cryocooler:EEH-ZA1V680XP"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11063,7 +11053,7 @@
 			(zone_connect 1)
 			(uuid "16749c74-ef20-4e6e-b1d3-b4443314590b")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/EEH-ZA1V680XP.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/EEH-ZA1V680XP.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11075,7 +11065,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:XAL1010"
+	(footprint "Cryocooler:XAL1010"
 		(layer "F.Cu")
 		(uuid "df75bcde-78be-4a95-89ee-e779a5e49625")
 		(at 135.225 87.591)
@@ -11104,7 +11094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:XAL1010"
+		(property "Footprint" "Cryocooler:XAL1010"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11431,7 +11421,7 @@
 			(pintype "passive")
 			(uuid "c5f69f98-a410-4c5f-a809-1458ae4c7264")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/XAL1010-103MED.stp"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/XAL1010-103MED.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11443,7 +11433,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CGA3E3X5R1H105M080AB"
+	(footprint "Cryocooler:CGA3E3X5R1H105M080AB"
 		(layer "F.Cu")
 		(uuid "ef13dcbd-87b2-4deb-a605-055957a366bc")
 		(at 145.059 92.0741 -90)
@@ -11472,7 +11462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CGA3E3X5R1H105M080AB"
+		(property "Footprint" "Cryocooler:CGA3E3X5R1H105M080AB"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11771,7 +11761,7 @@
 				)
 			)
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CGA3E3X5R1H105M080AB.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CGA3E3X5R1H105M080AB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11792,8 +11782,7 @@
 		(property "Reference" "TP_PGND1"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "02b2c722-cb28-47b6-8f52-a52cc82409ec")
+			(uuid "abcadc02-9a27-467c-aa12-46d458e5ecc1")
 			(effects
 				(font
 					(size 1 1)
@@ -11804,8 +11793,7 @@
 		(property "Value" "TestPoint"
 			(at 0 1.75 0)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "2bb93d10-e88e-4897-9649-94091ad4bf04")
+			(uuid "55e49efb-26ef-48b5-8560-620956e8ef65")
 			(effects
 				(font
 					(size 1 1)
@@ -11818,7 +11806,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "581ce6ab-3961-4581-9597-ffe00d681256")
+			(uuid "3faedd21-b291-4719-9e34-6fe06107c9eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11831,7 +11819,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d844dfee-1eb1-4714-8753-bd95a1ff40e1")
+			(uuid "063ac65a-b41d-4759-b245-071b7f809079")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11844,7 +11832,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9144b42-34d1-4f19-9739-bbe25dfea1b1")
+			(uuid "f0c40e90-3d96-4f56-a72b-42cf53c8e9b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11856,7 +11844,7 @@
 		(path "/a8795e84-df52-4e27-ab6e-2dff105ca8e6")
 		(sheetname "Root")
 		(sheetfile "Cryocooler_board_4_pin.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.95)
@@ -11866,7 +11854,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "0658b740-6a5f-490a-b42d-2d8c1b58c661")
+			(uuid "5751dd70-a01b-43cf-a786-fbc3350923fa")
 		)
 		(fp_circle
 			(center 0 0)
@@ -11877,12 +11865,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "3c4bb2d6-fcec-43d3-995a-3abbb8d71b27")
+			(uuid "39c47354-189a-4e54-9a22-ffd66be26896")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.65 0)
 			(layer "F.Fab")
-			(uuid "437134d3-c86d-44d2-96f9-6f9c1abbae8a")
+			(uuid "34225d79-de22-4a9d-83aa-e0bc1f9306c3")
 			(effects
 				(font
 					(size 1 1)
@@ -11899,10 +11887,10 @@
 			(net 26 "PGND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "0f7b9fc0-a800-47a5-a731-841270f6a6c4")
+			(uuid "135748bd-27b4-48d4-b789-556386417ad5")
 		)
 	)
-	(footprint "Cryocooler_footprints:CGA5L1X7R1H106K160AC"
+	(footprint "Cryocooler:CGA5L1X7R1H106K160AC"
 		(layer "F.Cu")
 		(uuid "f00d7f12-4609-4f1e-8af1-e1a264e48888")
 		(at 150.375 83.207 90)
@@ -11929,7 +11917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CGA5L1X7R1H106K160AC"
+		(property "Footprint" "Cryocooler:CGA5L1X7R1H106K160AC"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12089,7 +12077,7 @@
 			(zone_connect 2)
 			(uuid "47c717bd-5c3b-49d8-9472-bdac76935da3")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CGA5L1X7R1H106K160AC.step"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CGA5L1X7R1H106K160AC.step"
 			(offset
 				(xyz 0 -0.985 0.75)
 			)
@@ -12101,7 +12089,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:MOLEX_4_pin"
+	(footprint "Cryocooler:MOLEX_4_pin"
 		(layer "F.Cu")
 		(uuid "fa40e3da-3211-4701-8f30-b7a542bf31a6")
 		(at 162.331 79.833 -90)
@@ -12130,7 +12118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:MOLEX_4_pin"
+		(property "Footprint" "Cryocooler:MOLEX_4_pin"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12394,7 +12382,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(uuid "3d116387-1de4-4955-8bf2-1b789e5eef14")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/MOLEX_4_pin.stp"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/MOLEX_4_pin.stp"
 			(offset
 				(xyz -2.5 5.3 0)
 			)
@@ -12406,7 +12394,7 @@
 			)
 		)
 	)
-	(footprint "Cryocooler_footprints:CGA3E2C0G1H562J080AA"
+	(footprint "Cryocooler:CGA3E2C0G1H562J080AA"
 		(layer "F.Cu")
 		(uuid "fdf315be-3922-421d-815d-3a30f7042e8a")
 		(at 143.9922 80.352 180)
@@ -12432,7 +12420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:CGA3E2C0G1H562J080AA"
+		(property "Footprint" "Cryocooler:CGA3E2C0G1H562J080AA"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12571,7 +12559,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "7cfb2b85-4245-49d8-87d1-3424acc120c8")
 		)
-		(model "${KIPRJMOD}/Footprints+Symbols/3d_symbols/CGA3E2C0G1H562J080AA.stp"
+		(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CGA3E2C0G1H562J080AA.stp"
 			(offset
 				(xyz 0 0 0.4)
 			)

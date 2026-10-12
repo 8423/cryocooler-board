@@ -18,3 +18,4 @@ fp-info-cache
 production/backups/
 # stray nested folder in V1
 /V1/
+*.bak

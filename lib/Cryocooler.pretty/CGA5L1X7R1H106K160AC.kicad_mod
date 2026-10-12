@@ -1,0 +1,192 @@
+(footprint "CGA5L1X7R1H106K160AC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.768 0.012 90)
+		(layer "F.SilkS")
+		(uuid "e33009ce-2bbb-4c48-8841-807740a59408")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "10uF"
+		(at 0.94 1.5 0)
+		(layer "F.Fab")
+		(uuid "5cf314de-0039-41fd-8683-9287dcf253cb")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Footprint" "Cryocooler:CGA5L1X7R1H106K160AC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f84f9777-fe15-40e3-9234-05f60c9c2d60")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a319207b-84b7-4e84-8aa6-86a78f3451b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db4f9ffd-3489-49bb-b99d-eb8df1b48143")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.29 -0.9)
+		(end 0.29 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed5cc942-2332-4291-a5f3-dbf473a37683")
+	)
+	(fp_line
+		(start -0.29 0.9)
+		(end 0.29 0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0f700bb-66d2-4b46-bbd5-f45111501115")
+	)
+	(fp_line
+		(start -2.308 -1.158)
+		(end 2.308 -1.158)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8eb33aa-5ae5-428f-a7c6-8c4cc030ba32")
+	)
+	(fp_line
+		(start -2.308 1.158)
+		(end -2.308 -1.158)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "466156d3-b456-48e1-9a59-32acac991194")
+	)
+	(fp_line
+		(start -2.308 1.158)
+		(end 2.308 1.158)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc01faf8-4a33-4ab0-8533-90696e791e0b")
+	)
+	(fp_line
+		(start 2.308 1.158)
+		(end 2.308 -1.158)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c281b519-3e98-4349-b73d-88d01bba6470")
+	)
+	(fp_line
+		(start -1.7 0.9)
+		(end -1.7 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a932a05-ed97-481f-8960-72b89b4e5af3")
+	)
+	(fp_line
+		(start 1.7 -0.9)
+		(end -1.7 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a2ed4d9-bb6c-455e-809c-11d98d813c7e")
+	)
+	(fp_line
+		(start 1.7 0.9)
+		(end -1.7 0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "39dd072c-ee08-4ddf-9afa-1a7f03dc7f23")
+	)
+	(fp_line
+		(start 1.7 0.9)
+		(end 1.7 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3f25b0e-c758-497a-8115-ddfad549ad81")
+	)
+	(pad "1" smd rect
+		(at -1.336 0)
+		(size 1.44 1.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "19fb806a-77e2-4a1a-9117-46c595956141")
+	)
+	(pad "2" smd rect
+		(at 1.336 0)
+		(size 1.44 1.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(zone_connect 2)
+		(uuid "e2ace84e-8d33-4443-bc13-6e6ab40918f7")
+	)
+	(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CGA5L1X7R1H106K160AC.step"
+		(offset
+			(xyz 0 -0.985 0.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

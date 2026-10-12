@@ -461,7 +461,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Cryocooler_board_4_pin.kicad_pro",
+    "filename": "cryocooler-board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -646,6 +646,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
           "show": false
         }
       ],

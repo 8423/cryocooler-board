@@ -1,0 +1,191 @@
+(footprint "CRCW12062K20JNEA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.005 1.74 90)
+		(layer "F.SilkS")
+		(uuid "7bd96885-c2d6-4237-a365-58706f26cc2a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "2.20k"
+		(at 0.74 1.48 0)
+		(layer "F.Fab")
+		(uuid "bc7bed12-7afa-4e10-b1a7-a3e0de2eec6a")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Footprint" "Cryocooler:CRCW12062K20JNEA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0e51c05-abae-4b7c-8569-b840b954ee1b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ee16de0-0bda-4a9b-b605-dc43c92a7c6e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resistor, US symbol"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3dd9a03-e0a1-48d8-a412-db97148b2ebb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.64 -0.88)
+		(end 0.64 -0.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38a99068-320c-44d6-af5d-2eee0ba108a0")
+	)
+	(fp_line
+		(start -0.64 0.88)
+		(end 0.64 0.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91aa1a07-b000-4474-adb2-4e8b08612880")
+	)
+	(fp_line
+		(start -2.26 -1.135)
+		(end 2.26 -1.135)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "886976d2-9804-4933-9929-bec5eef652d7")
+	)
+	(fp_line
+		(start -2.26 1.135)
+		(end -2.26 -1.135)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d47b6c3e-6742-4262-930a-962b0ec9b8f4")
+	)
+	(fp_line
+		(start -2.26 1.135)
+		(end 2.26 1.135)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a05e3295-a5f4-47a7-a5ff-910b484653a4")
+	)
+	(fp_line
+		(start 2.26 1.135)
+		(end 2.26 -1.135)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "96e12da2-93a0-4e5e-8187-86cb55dbf1a7")
+	)
+	(fp_line
+		(start -1.65 0.88)
+		(end -1.65 -0.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f57b525-dea4-496c-91aa-a19c7d4c6b4e")
+	)
+	(fp_line
+		(start 1.65 -0.88)
+		(end -1.65 -0.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ca45437-307e-4c6a-bd41-6f3f97e684fb")
+	)
+	(fp_line
+		(start 1.65 0.88)
+		(end -1.65 0.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c82b0188-9190-4aa5-b47e-acf1d06fcfbc")
+	)
+	(fp_line
+		(start 1.65 0.88)
+		(end 1.65 -0.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50244ad8-a034-4241-9e39-f85d3839423e")
+	)
+	(pad "1" smd rect
+		(at -1.485 0)
+		(size 1.05 1.77)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "90a18a5a-5ade-46e8-b173-c2108851e8ac")
+	)
+	(pad "2" smd rect
+		(at 1.485 0)
+		(size 1.05 1.77)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "18bb7085-f1c9-442e-ae69-0ba84dc07699")
+	)
+	(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/CRCW12062K20JNEA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,362 @@
+(footprint "XAL1010"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "XAL1010-1")
+	(tags "Inductor")
+	(property "Reference" "REF**"
+		(at -0.37426 -0.03804 0)
+		(layer "F.SilkS")
+		(uuid "e765a43d-7f0a-4673-baa4-108935c18f0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "10uH"
+		(at -0.37426 -0.03804 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "941d50c3-6c85-4d60-adc3-151f6bc0518d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "Cryocooler:XAL1010"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7987cda9-cd2b-4570-831f-bb3f04fee0b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c246cb1d-c80a-4229-9d39-f9fa5beb041f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64ba3803-38c0-420b-99c2-1c161b35e50e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Coilcraft"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81378b01-e23e-478b-8bf2-d36924f16744")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DESCRIPTION" "10 µH Shielded Molded Inductor 17.5 A 5.7mOhm Max Nonstandard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ca495bd-e604-42cb-a4ef-979c8d99675e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a7ca68c-43df-48fc-b470-4c01599539bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PRICE" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5120c2bc-6f28-4204-a470-8009098430e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb4f055b-ee2f-4a78-94e4-145166151cba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal1010/xal1010-103/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4f7bb71-8f20-4e1a-b7d9-42d117d7200f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32887a02-1143-4af1-8f9b-d107339cf15d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/XAL1010-472MED/Coilcraft/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1a7b21a-ea2f-492d-ad8c-2e610d5cb49e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "XAL1010-103MED"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b44ba866-12a4-4920-9000-8124ebb2a864")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\n                        \n                            10 µH Shielded Molded Inductor 17.5 A 5.7mOhm Max Nonstandard\n                        \n"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f610a28b-b320-4389-9e00-d8a3c8c6cdef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cdbebc7-8842-4a16-bd50-cbfb5bc24926")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AVAILABILITY" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4445db69-6faf-4de6-bb21-89901b882e13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PURCHASE-URL" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal1010/xal1010-103/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33b9ccaa-358a-4e5e-bb0c-e6819fd6b7ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 -5.65)
+		(end -5 5.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c26527bf-399a-42f0-be08-77162ac3c675")
+	)
+	(fp_line
+		(start -5 5.65)
+		(end 5 5.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d58824a-a07e-4a46-b2df-e65bea42dc59")
+	)
+	(fp_line
+		(start 5 -5.65)
+		(end -5 -5.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a0a9cb1-25f4-4ff0-88cb-b065d9243a67")
+	)
+	(fp_line
+		(start 5 5.65)
+		(end 5 -5.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1bc2e013-abfb-4acf-946f-69029a3b008a")
+	)
+	(fp_circle
+		(center -5.973 -0.045)
+		(end -5.973 0.025)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "00bb3ecc-1592-4d6e-aa32-538682a3c860")
+	)
+	(fp_line
+		(start -5 -5.65)
+		(end 5 -5.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24bfbee6-30fa-4e76-9422-ccb6371b5f7c")
+	)
+	(fp_line
+		(start -5 5.65)
+		(end -5 -5.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "15e90a22-c2b2-4baf-a44f-4f3c86579907")
+	)
+	(fp_line
+		(start 5 -5.65)
+		(end 5 5.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8d154ce-e775-4f37-9c36-b9fb4b23fb81")
+	)
+	(fp_line
+		(start 5 5.65)
+		(end -5 5.65)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71198b34-11c3-4245-8b35-d0055dad3707")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.37426 -0.03804 0)
+		(layer "F.Fab")
+		(uuid "e44e9b87-a9b6-4085-81f0-e0d0bc19cf0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.325 0)
+		(size 2.38 9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "91644369-99c3-4d41-a7b0-5a445597f1d0")
+	)
+	(pad "2" smd rect
+		(at 3.325 0)
+		(size 2.38 9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ce0cb9b8-0b87-430e-94dc-f461ea0cc22a")
+	)
+	(model "${KIPRJMOD}/lib/Cryocooler.3dshapes/XAL1010-103MED.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
