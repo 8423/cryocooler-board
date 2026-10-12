@@ -1,0 +1,89 @@
+(footprint "M3_3_4mm_hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "H2"
+		(at 0 2.725 0)
+		(unlocked yes)
+		(layer "Edge.Cuts")
+		(uuid "928d18f5-e25a-4f07-9393-11110253819e")
+		(effects
+			(font
+				(size 1.7 1.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MountingHole"
+		(at -15.575 -2.675 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "367c5b73-a4af-4fef-8e7f-5fb9951aedb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Cryocooler_footprints:M3_3_4mm_hole"
+		(at 0.4 -10.425 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd762c79-4a2d-44a1-b661-0f3775ca75eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "299ae136-b41d-497f-854c-85a234887950")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole without connection"
+		(at -4.55 -12.575 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8bcae97-b679-4d60-b5ee-873c5ecf8300")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 7 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "33b35f38-cac7-4e80-9b51-cba92062febc")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.4 3.4)
+		(drill 3.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "65ca1a22-d8ea-4da3-b552-0a58fadabf3b")
+	)
+)
