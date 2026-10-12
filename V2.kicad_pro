@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.778,
-          "width": 1.27
+          "height": 0.635,
+          "width": 0.254
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -461,7 +461,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "V1.kicad_pro",
+    "filename": "V2.kicad_pro",
     "version": 1
   },
   "net_settings": {

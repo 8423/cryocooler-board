@@ -4328,16 +4328,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 80.01) (xy 22.86 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08208410-236f-41b7-bdd1-c5b290d44be4")
-	)
-	(wire
-		(pts
 			(xy 109.22 49.53) (xy 109.22 54.61)
 		)
 		(stroke
@@ -4865,6 +4855,16 @@
 			(type default)
 		)
 		(uuid "77339780-107c-41d6-b4e1-7da9c7b04d4b")
+	)
+	(wire
+		(pts
+			(xy 40.64 76.2) (xy 40.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79600a4f-33dd-4a56-9b13-3b884d1f1d69")
 	)
 	(wire
 		(pts
@@ -5638,6 +5638,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 76.2) (xy 22.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8c7392-9712-4e8c-9599-02c9b042283d")
+	)
+	(wire
+		(pts
 			(xy 22.86 158.75) (xy 22.86 153.67)
 		)
 		(stroke
@@ -5809,6 +5819,28 @@
 			)
 		)
 	)
+	(global_label "VIN"
+		(shape input)
+		(at 40.64 76.2 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23dab330-8db4-45ca-8794-c6775723260e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 70.1909 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 101.6 167.64 180)
@@ -5897,24 +5929,24 @@
 			)
 		)
 	)
-	(global_label "VIN"
+	(global_label "VIN_PRE"
 		(shape input)
-		(at 20.32 80.01 180)
+		(at 22.86 76.2 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5dc32b54-d4c7-4c90-9737-0cd5d07e1424")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.3109 80.01 0)
+			(at 22.86 65.5343 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5985,7 +6017,7 @@
 			)
 		)
 	)
-	(global_label "VIN"
+	(global_label "VIN_PRE"
 		(shape input)
 		(at 30.48 149.86 90)
 		(fields_autoplaced yes)
@@ -5997,7 +6029,7 @@
 		)
 		(uuid "7f30181f-d6b3-4120-8449-b44a858a5dd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.48 143.8509 90)
+			(at 30.48 139.1943 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6853,7 +6885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21683ae4-57c4-4ca4-819a-79fe86669eee")
-		(property "Reference" "TP5"
+		(property "Reference" "TP_AGND1"
 			(at 78.74 154.686 90)
 			(effects
 				(font
@@ -6869,9 +6901,10 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 85.09 152.4 0)
 			(effects
 				(font
@@ -6904,7 +6937,7 @@
 		(instances
 			(project "try_1_tps5288"
 				(path "/fc4eef0c-f0fe-4c26-9eed-35cfade9960a"
-					(reference "TP5")
+					(reference "TP_AGND1")
 					(unit 1)
 				)
 			)
@@ -7333,7 +7366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "379f864b-1474-40d6-97f8-0878d89b701d")
-		(property "Reference" "TP1"
+		(property "Reference" "TP_VOUT1"
 			(at 272.034 71.12 0)
 			(effects
 				(font
@@ -7351,7 +7384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 274.32 77.47 0)
 			(effects
 				(font
@@ -7384,7 +7417,7 @@
 		(instances
 			(project "try_1_tps5288"
 				(path "/fc4eef0c-f0fe-4c26-9eed-35cfade9960a"
-					(reference "TP1")
+					(reference "TP_VOUT1")
 					(unit 1)
 				)
 			)
@@ -8201,7 +8234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5508c101-19af-4986-959a-123984198fa5")
-		(property "Reference" "TP3"
+		(property "Reference" "TP_SCL1"
 			(at 101.092 161.798 0)
 			(effects
 				(font
@@ -8217,9 +8250,10 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 107.95 165.1 0)
 			(effects
 				(font
@@ -8252,7 +8286,7 @@
 		(instances
 			(project "try_1_tps5288"
 				(path "/fc4eef0c-f0fe-4c26-9eed-35cfade9960a"
-					(reference "TP3")
+					(reference "TP_SCL1")
 					(unit 1)
 				)
 			)
@@ -8669,7 +8703,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f1c948c-a235-48ad-935a-bfedf2d5ddaf")
-		(property "Reference" "TP2"
+		(property "Reference" "TP_VIN1"
 			(at 38.354 73.66 0)
 			(effects
 				(font
@@ -8685,9 +8719,10 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 40.64 80.01 0)
 			(effects
 				(font
@@ -8720,7 +8755,7 @@
 		(instances
 			(project ""
 				(path "/fc4eef0c-f0fe-4c26-9eed-35cfade9960a"
-					(reference "TP2")
+					(reference "TP_VIN1")
 					(unit 1)
 				)
 			)
@@ -8752,7 +8787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cryocooler_footprints:XAL8080-103MED"
+		(property "Footprint" "Cryocooler_footprints:XAL1010"
 			(at 158.75 49.53 0)
 			(effects
 				(font
@@ -9611,7 +9646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2114c64-5668-497c-b5d4-e0b61bde3c76")
-		(property "Reference" "TP4"
+		(property "Reference" "TP_SDA1"
 			(at 101.092 173.99 0)
 			(effects
 				(font
@@ -9627,9 +9662,10 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 97.79 167.64 0)
 			(effects
 				(font
@@ -9662,7 +9698,7 @@
 		(instances
 			(project "try_1_tps5288"
 				(path "/fc4eef0c-f0fe-4c26-9eed-35cfade9960a"
-					(reference "TP4")
+					(reference "TP_SDA1")
 					(unit 1)
 				)
 			)
@@ -9677,7 +9713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8795e84-df52-4e27-ab6e-2dff105ca8e6")
-		(property "Reference" "TP6"
+		(property "Reference" "TP_PGND1"
 			(at 67.31 89.916 90)
 			(effects
 				(font
@@ -9693,9 +9729,10 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 73.66 87.63 0)
 			(effects
 				(font
@@ -9728,7 +9765,7 @@
 		(instances
 			(project "try_1_tps5288"
 				(path "/fc4eef0c-f0fe-4c26-9eed-35cfade9960a"
-					(reference "TP6")
+					(reference "TP_PGND1")
 					(unit 1)
 				)
 			)
