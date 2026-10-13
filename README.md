@@ -19,7 +19,7 @@ Designed in KiCad 8 by Rodrigo Spinola e Castro.
 | V2 | `v2` | Fabricated, faulty |
 | V3 | `v3` | Fabricated. I²C and digipot work; the converter output oscillates and efficiency is very low (see [Lessons from V3](#lessons-from-v3)) |
 | V4 | – | Redesign addressing V3's problems: bulk output capacitor, current limit, thermal vias |
-| **V4.1** | – (tagged at order) | **Current design, about to go to production.** Compared with V4: the temperature set-point connector J4 is now a 4-pin Pico-Lock, and the output connector J2 is now a 2-pin Pico-Lock |
+| **V4.1** | – (tagged at order) | **Current design, about to go to production.** Compared with V4: the output connector J2 is now a 2-pin Pico-Lock instead of a 4-pin. (J4 was briefly changed to 4-pin during V4.1 and then returned to 2-pin.) |
 
 Each built version is tagged. Browse any of them with the branch/tag selector on GitHub, or compare two, e.g. `…/compare/v3...main`.
 
@@ -71,9 +71,9 @@ All connectors are Molex Pico-Lock.
 | **J1** | 24 V input | 4-pin 5040500491 | VIN | VIN | PGND | PGND |
 | **J2** | Converter output to the cryocooler | 2-pin 2053380002 | VOUT | PGND | – | – |
 | **J3** | I²C | 4-pin 5040500491 | AGND | SCL | SDA | AGND |
-| **J4** | Cryocooler temperature set point | 4-pin 5040500491 | CRYO_2 | CRYO_2 | CRYO_1 | CRYO_1 |
+| **J4** | Cryocooler temperature set point | 2-pin 2053380002 | CRYO_2 | CRYO_1 | – | – |
 
-On J1 and J4, each signal uses two pins in parallel.
+On J1, each signal uses two pins in parallel.
 
 Test points: TP_VIN1, TP_VOUT1, TP_PGND1, TP_AGND1, TP_SCL1 and TP_SDA1.
 
@@ -157,7 +157,7 @@ On V3, I²C and the digipot worked; the digipot covers its full 1 kΩ range. The
 | **In2: power** | **Bottom: PGND** |
 | ![In2](docs/images/layer3_power.png) | ![Bottom](docs/images/layer4_bottom_pgnd.png) |
 
-These images show V4.1, exported with KiCad's `kicad-cli` (copper, front silkscreen and board outline). The Fermilab logo is a graphic that this export leaves out; the 3D view at the top shows it.
+These images show V4.1: each copper layer with the front silkscreen on top.
 
 ---
 
@@ -199,6 +199,7 @@ Boards are made and assembled by **JLCPCB**. The production files are generated 
 - [ ] **Cdith1:** the schematic and PCB say 15 nF; the part and footprint are the 47 nF CGA3E2X7R1H473K080AD, and the design review chose 47 nF. Decide, and match the part.
 - [ ] **J2 (output):** confirm that the 2-pin Pico-Lock's current rating per contact covers the ~2 A peak load. The old 4-pin connector split the current across two pins.
 - [ ] **Silkscreen:** the board text still says "Cryocooler Board V4"; change it to V4.1.
+- [ ] **J2 and J4 Value fields:** both connectors are 2-pin now; make sure each Value says "MOL Pico 2" so the BOM lists the right part.
 - [ ] **R6 (current limit):** the schematic value is 40 kΩ, the footprint is a 20 kΩ part, and the design review calculated 47.5 kΩ for 10 A. Decide, and match the part.
 - [ ] **Q1/Q2:** the symbol says IPZ40N04S5-3R1, the footprint says IPZ40N04S5L4R8ATMA1. Pick the part being ordered.
 - [ ] **Resistor values vs footprint names:** R4 (30 k on a 30.9 k footprint), R5 (5 k in the schematic vs 5.1 k in the review, on a 2.00 k footprint) and Rfsw1 (32.4 k on a 10.0 k footprint). Footprint names come from vendor parts; only the package matters, so make sure `LCSC Part #` names the right value.
