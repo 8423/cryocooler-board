@@ -4007,12 +4007,6 @@
 		(uuid "6be4f838-0d2d-4e38-9c52-8eea5d0fb657")
 	)
 	(junction
-		(at 231.14 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cc942fc-4a8a-43d3-9a55-f56ee3c99c38")
-	)
-	(junction
 		(at 100.33 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4113,12 +4107,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0feec68-ab65-42d7-8f9f-1281a325a314")
-	)
-	(junction
-		(at 231.14 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b29c1877-100c-4e9e-ac6e-96375dc8022a")
 	)
 	(junction
 		(at 227.33 85.09)
@@ -4456,16 +4444,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 142.24) (xy 231.14 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41212801-5731-4ec1-a445-8d8f0bc4d7da")
-	)
-	(wire
-		(pts
 			(xy 73.66 92.71) (xy 73.66 95.25)
 		)
 		(stroke
@@ -4593,16 +4571,6 @@
 			(type default)
 		)
 		(uuid "53e414b3-3810-465b-a6de-b437d2899fed")
-	)
-	(wire
-		(pts
-			(xy 231.14 148.59) (xy 231.14 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b58954-32b6-46c5-b656-c9e18bb0392a")
 	)
 	(wire
 		(pts
@@ -4836,16 +4804,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 148.59) (xy 231.14 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a825df4-b2a0-474f-bb2c-578a06dc32b4")
-	)
-	(wire
-		(pts
 			(xy 100.33 152.4) (xy 100.33 147.32)
 		)
 		(stroke
@@ -5016,6 +4974,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 148.59) (xy 222.25 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d198abb-9a53-4582-a9d2-07b1b8d72cce")
+	)
+	(wire
+		(pts
 			(xy 109.22 69.85) (xy 109.22 80.01)
 		)
 		(stroke
@@ -5166,6 +5134,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 144.78) (xy 227.33 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f017d4-e8e2-44ef-b8ab-4a2a635c1a49")
+	)
+	(wire
+		(pts
 			(xy 194.31 85.09) (xy 203.2 85.09)
 		)
 		(stroke
@@ -5226,13 +5204,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 148.59) (xy 231.14 148.59)
+			(xy 222.25 143.51) (xy 222.25 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b88be302-a195-44ba-9dd0-8da427675b3e")
+		(uuid "b6e86253-74d2-4baa-92e8-a26348d41932")
 	)
 	(wire
 		(pts
@@ -5296,16 +5274,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 143.51) (xy 231.14 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd392f86-2a38-4926-955d-bd89e62ad391")
-	)
-	(wire
-		(pts
 			(xy 85.09 157.48) (xy 95.25 157.48)
 		)
 		(stroke
@@ -5323,16 +5291,6 @@
 			(type default)
 		)
 		(uuid "c1b55985-0209-4d7b-a0b4-487b8283ed15")
-	)
-	(wire
-		(pts
-			(xy 222.25 143.51) (xy 231.14 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c235a9fa-593d-4bef-bb44-c7f87328d656")
 	)
 	(wire
 		(pts
@@ -5403,6 +5361,16 @@
 			(type default)
 		)
 		(uuid "cd9dc60d-0172-4694-a3de-dd2ea18ba44c")
+	)
+	(wire
+		(pts
+			(xy 222.25 147.32) (xy 227.33 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d1b897-218a-4ee5-8fbf-1826af7b9ee2")
 	)
 	(wire
 		(pts
@@ -6579,8 +6547,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Cryocooler:5040500491")
-		(at 231.14 142.24 0)
+		(lib_id "Cryocooler:2053380002")
+		(at 227.33 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6588,7 +6556,7 @@
 		(dnp no)
 		(uuid "1273b9bf-3e08-40da-9c55-2fa0a6675109")
 		(property "Reference" "J4"
-			(at 245.364 152.4 90)
+			(at 241.554 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6596,8 +6564,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MOL Pico 4"
-			(at 247.904 152.654 90)
+		(property "Value" "MOL Pico 2"
+			(at 244.094 155.194 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6605,8 +6573,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Cryocooler:MOLEX_4_pin"
-			(at 231.14 142.24 0)
+		(property "Footprint" "Cryocooler:MOLEX_2_pin"
+			(at 227.33 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,8 +6583,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5040500491?display=pdf"
-			(at 231.14 142.24 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2053380002?display=pdf"
+			(at 227.33 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6626,7 +6594,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 142.24 0)
+			(at 227.33 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6634,17 +6602,11 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "fe88f435-e744-4e25-b246-e8e536227cce")
-		)
 		(pin "2"
 			(uuid "349aeb88-8c81-46e2-ac7f-6e20e7ab0546")
 		)
 		(pin "1"
 			(uuid "07a4e0b6-119d-4851-8c32-b6469c40f9f4")
-		)
-		(pin "4"
-			(uuid "c4bde424-9fc0-44a5-b6f2-63681235b4ef")
 		)
 		(instances
 			(project "Cryocooler_board_4_pin"
