@@ -112,6 +112,393 @@
 				)
 			)
 		)
+		(symbol "Cryocooler:2053380002"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "2053380002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Cryocooler:MOLEX_2_pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2053380002?display=pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "2053380002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CONN_2053380000-SD_02_MOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2053380002_1_1"
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "2053380002_1_2"
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Cryocooler:5040500491"
 			(pin_names
 				(offset 0.254)
@@ -3506,12 +3893,6 @@
 		(uuid "081e4444-12b1-46b2-aa86-4ecadf15d042")
 	)
 	(junction
-		(at 44.45 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f6ad034-af26-4ec4-930a-f4f29c73efe4")
-	)
-	(junction
 		(at 92.71 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3654,12 +4035,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7989d446-0076-4773-8368-6184aae3b5e6")
-	)
-	(junction
-		(at 52.07 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e83c67f-e5a5-4e34-910d-f92dd0f80153")
 	)
 	(junction
 		(at 187.96 85.09)
@@ -3881,16 +4256,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 153.67) (xy 46.99 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "053a5760-5e7c-4a02-9879-14ee979bb0e5")
-	)
-	(wire
-		(pts
 			(xy 52.07 80.01) (xy 62.23 80.01)
 		)
 		(stroke
@@ -3968,6 +4333,26 @@
 			(type default)
 		)
 		(uuid "2066c12b-21d8-4735-9b36-c9ed111d6d4f")
+	)
+	(wire
+		(pts
+			(xy 49.53 144.78) (xy 52.07 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22a5cb3e-9048-4db2-be1a-2c90ff61887c")
+	)
+	(wire
+		(pts
+			(xy 49.53 144.78) (xy 49.53 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b366b7-e36c-437b-af7b-03e8cc6794bc")
 	)
 	(wire
 		(pts
@@ -4071,16 +4456,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 144.78) (xy 44.45 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d63eba2-96a0-4a2c-96ac-7f4bdfd198fe")
-	)
-	(wire
-		(pts
 			(xy 231.14 142.24) (xy 231.14 143.51)
 		)
 		(stroke
@@ -4141,7 +4516,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 158.75) (xy 46.99 153.67)
+			(xy 46.99 144.78) (xy 46.99 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4218,16 +4593,6 @@
 			(type default)
 		)
 		(uuid "53e414b3-3810-465b-a6de-b437d2899fed")
-	)
-	(wire
-		(pts
-			(xy 49.53 153.67) (xy 52.07 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "551d2e8a-d018-4ea7-a833-419c705d8c7f")
 	)
 	(wire
 		(pts
@@ -4438,16 +4803,6 @@
 			(type default)
 		)
 		(uuid "75796f94-968d-4e09-96dd-4a39625efe9b")
-	)
-	(wire
-		(pts
-			(xy 44.45 158.75) (xy 44.45 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7696d06f-1889-4ca6-9302-2aa39c58aa70")
 	)
 	(wire
 		(pts
@@ -4811,16 +5166,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 149.86) (xy 52.07 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a61e87be-d3ef-4092-8651-c6a931a24834")
-	)
-	(wire
-		(pts
 			(xy 194.31 85.09) (xy 203.2 85.09)
 		)
 		(stroke
@@ -4951,16 +5296,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 153.67) (xy 52.07 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc2ced02-5abc-4659-a003-6f57cbc457d6")
-	)
-	(wire
-		(pts
 			(xy 231.14 143.51) (xy 231.14 144.78)
 		)
 		(stroke
@@ -4978,16 +5313,6 @@
 			(type default)
 		)
 		(uuid "bd7a5a44-d83b-4778-bc36-ab944cadf4af")
-	)
-	(wire
-		(pts
-			(xy 49.53 153.67) (xy 49.53 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be0121fc-8cb2-4730-b4f7-322de506af68")
 	)
 	(wire
 		(pts
@@ -5078,6 +5403,16 @@
 			(type default)
 		)
 		(uuid "cd9dc60d-0172-4694-a3de-dd2ea18ba44c")
+	)
+	(wire
+		(pts
+			(xy 43.18 144.78) (xy 46.99 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a66aa8-41f9-49cd-9ac8-0abb899efa58")
 	)
 	(wire
 		(pts
@@ -5341,16 +5676,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 144.78) (xy 44.45 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7114b62-c096-4c9b-9708-b5c243142a45")
-	)
-	(wire
-		(pts
 			(xy 22.86 76.2) (xy 22.86 80.01)
 		)
 		(stroke
@@ -5411,8 +5736,8 @@
 		)
 		(uuid "51192110-ba8b-4029-a489-8e1548b18007")
 	)
-	(label "Viout_GND"
-		(at 44.45 153.67 90)
+	(label "Vout_GND"
+		(at 43.18 144.78 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5710,7 +6035,7 @@
 	)
 	(global_label "VOUT"
 		(shape input)
-		(at 52.07 149.86 90)
+		(at 52.07 144.78 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5720,7 +6045,7 @@
 		)
 		(uuid "71d276b3-2435-43ad-ba25-ea18c9390ab4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 142.1576 90)
+			(at 52.07 137.0776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6189,7 +6514,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 46.99 144.78 0)
+		(at 43.18 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6198,7 +6523,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f470b76-8c2f-4aa1-83ca-3e0d4730c2c3")
 		(property "Reference" "#PWR07"
-			(at 46.99 151.13 0)
+			(at 43.18 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,7 +6532,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 46.99 149.86 0)
+			(at 43.18 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,7 +6540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 144.78 0)
+			(at 43.18 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6224,7 +6549,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 144.78 0)
+			(at 43.18 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6233,7 +6558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 46.99 144.78 0)
+			(at 43.18 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,6 +7599,77 @@
 			(project "try_1_tps5288"
 				(path "/fc4eef0c-f0fe-4c26-9eed-35cfade9960a"
 					(reference "TP_VOUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cryocooler:2053380002")
+		(at 49.53 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e11dfb6-d5ec-413b-be17-2ecebf179037")
+		(property "Reference" "J2"
+			(at 42.418 173.736 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOL Pico 2"
+			(at 42.418 176.276 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Cryocooler:MOLEX_2_pin"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2053380002?display=pdf"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "210afad1-adf2-4eaa-b17c-bfb6df8bf6b1")
+		)
+		(pin "1"
+			(uuid "d6daabe8-7c1f-4ac8-a7ce-f6cedd2e87f3")
+		)
+		(instances
+			(project ""
+				(path "/fc4eef0c-f0fe-4c26-9eed-35cfade9960a"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10591,83 +10987,6 @@
 			(project "try_1_tps5288"
 				(path "/fc4eef0c-f0fe-4c26-9eed-35cfade9960a"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Cryocooler:5040500491")
-		(at 52.07 158.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc6774e9-597d-4a9d-94ae-5c7dc1664610")
-		(property "Reference" "J2"
-			(at 41.91 172.974 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MOL Pico 4"
-			(at 41.656 175.768 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Cryocooler:MOLEX_4_pin"
-			(at 52.07 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5040500491?display=pdf"
-			(at 52.07 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b113ca6d-6f6d-44b7-a3bd-3547d2b9752a")
-		)
-		(pin "2"
-			(uuid "bba728cc-6f3d-4fd7-bdbc-e78a99755170")
-		)
-		(pin "1"
-			(uuid "2d308bd5-cd49-44cb-8494-2ae6cc3a8bd6")
-		)
-		(pin "4"
-			(uuid "bb086a6d-6830-4026-801f-582759875a34")
-		)
-		(instances
-			(project "try_1_tps5288"
-				(path "/fc4eef0c-f0fe-4c26-9eed-35cfade9960a"
-					(reference "J2")
 					(unit 1)
 				)
 			)
