@@ -50,10 +50,10 @@ flowchart LR
 ```
 
 - **Power path:** 24 V enters on J1 and passes through the 4 A fuse U3. The TPS55288 drives external MOSFETs Q1 and Q2 on the input side and uses inductor L1. The output passes through the 10 mΩ sense resistor R3 to J2.
-- **Control:** both chips sit on one I²C bus (J3), pulled up to VCC with 2.2 kΩ (R1, R2).
+- **Control:** both chips sit on one I²C bus (J3). The bus is pulled up by the host computer (3.3 V), not by this board: R1 and R2 (2.2 kΩ to VCC) are kept as footprints but **not populated** in V4.1. This is a provisional choice; see the I²C item under [Open items](#open-items-before-ordering-v41).
   - TPS55288 at **0x74**: its MODE pin is tied to ground.
   - AD5258 at **0x18**: both address pins are tied to ground.
-- **VCC** is the TPS55288's internal 5 V supply, made from VIN. It powers the digipot and the I²C pull-ups, so **both chips only respond on I²C while 24 V is present**.
+- **VCC** is the TPS55288's internal 5 V supply, made from VIN. It powers the digipot (both VDD and VLOGIC), so **both chips only respond on I²C while 24 V is present**.
 - **Grounds:** analog ground (AGND) and power ground (PGND) are separate copper and joined at one point by the net tie NT1.
 
 ### Reset behaviour (requirements 1b and 4)
@@ -207,3 +207,7 @@ Boards are made and assembled by **JLCPCB**. The production files are generated 
 - [ ] CIN3 and C11 are 35 V parts on a 24 V rail; decide whether that's enough headroom.
 - [ ] ERC: add PWR_FLAGs on the VIN and ground nets, and change "Unspecified" pin types on the vendor symbols to Passive or Input.
 - [ ] Set the schematic title block revision to V4.1.
+- [ ] **I²C interface with a 3.3 V host (provisional: R1/R2 DNP).** The host drives the bus at 3.3 V with its own pull-ups. With R1/R2 populated, the 2.2 kΩ pull-ups to VCC (5.2 V) push the host's pins above its supply, so for now R1/R2 are not populated. A separate test setup confirmed both chips work this way. This matches TI's evaluation board, where the 2.2 kΩ pull-ups to VCC are optional (jumpers J5/J6) and the 3.3 V USB2ANY adapter supplies its own. Two problems remain before this is final:
+  - **AD5258 input-high threshold.** Its logic supply (VLOGIC, pin 6) is tied to VCC, so it needs SCL/SDA high ≥ 0.7 × 5.2 V = **3.64 V**. A 3.3 V bus is 0.34 V short of the guaranteed level; it works in testing, but with no specified margin across temperature or parts. The TPS55288 needs only 1.2 V and is within spec. TI's evaluation board has no AD5258, so it doesn't cover this.
+  - **Bus powered while 24 V is off.** VCC is then 0 V, so the host's pull-ups hold SCL/SDA above the TPS55288's VCC + 0.3 V rating and push current through the AD5258's clamp diodes into VCC (limited by the host's pull-ups; well under 1 mA).
+  - **Options:** (a) keep R1/R2 DNP and accept the AD5258 margin, verifying the digipot in TVAC; (b) feed VLOGIC from a small on-board 3.3 V LDO, which brings the threshold to 2.31 V without changing J3; (c) add a level translator (PCA9306 type) with R1/R2 back as 5 V-side pull-ups, which also isolates the bus when 24 V is off but needs the host's 3.3 V on J3. Whichever is chosen, the host should keep the bus idle until 24 V is present.

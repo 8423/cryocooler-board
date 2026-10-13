@@ -637,7 +637,7 @@
 		(path "/95b3679f-d7f0-4a34-8a00-b7f328b36637")
 		(sheetname "Root")
 		(sheetfile "cryocooler-board.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.64 0.88)
 			(end 0.64 0.88)
@@ -6127,7 +6127,7 @@
 		(path "/27fad0c2-66ea-4bd5-b453-80ec506cfcf5")
 		(sheetname "Root")
 		(sheetfile "cryocooler-board.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.64 -0.88)
 			(end 0.64 -0.88)
@@ -6275,7 +6275,7 @@
 				)
 			)
 		)
-		(property "Value" "MOL Pico 4"
+		(property "Value" "MOL Pico 2"
 			(at 0 -3.722299 90)
 			(unlocked yes)
 			(layer "F.Fab")
